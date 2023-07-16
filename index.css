@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: #232323;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+h1, i {
+    font-size: 24px;
+}
+
+div {
+    display: flex;
+}
+
+.container {
+    width: 20%;
+    padding: 15px;
+    border-radius: 10px;
+    flex-direction: column;
+    background-color: #121212;
+    color: white;
+    text-align: center;
+}
+
+.container-title {
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.text-input {
+    border: 1px solid #c2c2c2;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+    outline: none;
+}
+
+.button-box {
+    flex-direction: row;
+    gap: 10px;
+}
+
+.button-box button {
+    border: none;
+    width: 100%;
+    background-color: rgb(223, 202, 109);
+    color: #121212;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.button-box button:hover {
+    background-color: rgb(182, 163, 81);
+    cursor: pointer;
+}
+
+.invalido {
+    border: 1px solid #8d1d1d;
+    background-color: #f76969;
+    color: #8d1d1d;
+}
+
+#url-input::placeholder {
+    color: #121212;
+}
+
+.copiado {
+    border: 1px solid #0e5211;
+    background-color: #79d685;
+    color: #0e5211;
+}
+
+.info:hover {
+    cursor: pointer;
+    color: rgb(182, 163, 81);
+}
