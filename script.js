@@ -70,5 +70,5 @@ urlInput.onkeyup = () => {
 }
 
 infoButton.onclick = function(){
-    open('https://github.com/eurenaneu/encurtadorDeUrl', '_blank').focus();
+    open('https://github.com/eurenaneu/encurtadorUrl', '_blank').focus();
 }
